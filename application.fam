@@ -1,0 +1,9 @@
+App(
+    appid="ir_flood",
+    name="IR Multi-Flood Pro",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ir_flood_app",
+    requires=["gui", "infrared"],
+    stack_size=2 * 1024,
+    fap_category="Infrared",
+)
